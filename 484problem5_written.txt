@@ -1,0 +1,17 @@
+Q5.1
+
+With the given data set, it seems that the Diabetes Pedigree Function had
+the highest impact on the outcome. We assume this because the DBF had the
+highest weight out of every feature after LogisticRegression training.
+
+Q5.2
+
+We noticed that after LogisticRegression training the 'X' feature ended with
+the same weight as the 'Glucose' feature. We believe that we obtain similar
+predicted values because the sum of the Glucose weight and the X weight is
+similar to the Glucose weight in test 5.1.
+
+Q5.3
+
+When comparing test 5.3 to test 5.2, the weights were more similar than
+between test 5.1 and 5.2.

@@ -22,7 +22,7 @@ logreg1.fit(train_X, train_y)
 print(logreg1.coef_)
 
 y_pred1 = logreg1.predict(test_X)
-print(accuracy_score(test_y, y_pred1) *100)
+print(accuracy_score(test_y, y_pred1) * 100)
 print(y_pred1)
 
 
