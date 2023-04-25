@@ -22,5 +22,4 @@ m1_prediction = m1.predict(X)
 m2_prediction = m2.predict(X)
 
 np.savetxt('./q3_predict1.txt', m1_prediction)
-
 np.savetxt('./q3_predict2.txt', m2_prediction)
